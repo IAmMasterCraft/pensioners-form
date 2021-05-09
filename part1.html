@@ -22,7 +22,7 @@
     </div>
     <div class="container-fluid">
         <div class="row">
-            <h5>
+            <h5 class="text-center">
                 Part I
                 <br />
                 <i>to be completed by officer retiring</i>
@@ -30,7 +30,7 @@
             <p>
                 I, <span>......(Name of Officer)......</span>, Being an indeginous/overseas officer holding the post of
                 <span>......(Grade or Post)......</span>
-                <span>......(Ministry or Department)......</span>, due to retire from the Oyo Staate of Nigeria Public Service, would like my retirement benefits to be paid at
+                <span>......(Ministry or Department)......</span>, due to retire from the Oyo State of Nigeria Public Service, would like my retirement benefits to be paid at
                 <span>......(Place of Payment)......</span>
             </p>
             <p>
@@ -48,7 +48,7 @@
     </div>
     <div class="container-fluid">
         <div class="row">
-            <h5>
+            <h5 class="text-center">
                 Part II
                 <br />
                 <i>(To be completed by Permanent Secretary/Head of Department)</i>
@@ -360,7 +360,7 @@
     </div>
     <div class="container-fluid">
         <div class="row">
-            <h5>
+            <h5 class="text-center">
                 Part III
                 <br />
                 <i>(Computation of Pension and/or Gratuity by the Permanent Secretary, Ministry of Establishments and Training)</i>
@@ -458,7 +458,7 @@
     </div>
     <div class="container-fluid">
         <div class="row">
-            <h5>
+            <h5 class="text-center">
                 Part IV
                 <br /> ( AUDITOR-GENERAL'S CERTIFICATE)
             </h5>
@@ -472,11 +472,112 @@
                 <span>............., 20......</span>
             </div>
             <div class="col-lg-6 text-right">
-                <span>.......................</span><br /> Auditor-Genera, Oyo State
+                <span>.......................</span><br /> Auditor-General, Oyo State
             </div>
         </div>
     </div>
-    <a href="./index.html" class="btn btn-info btn-lg btn-block">Go to Service Records</a>
+    <div class="container-fluid">
+        <div class="row">
+            <h5 class="text-center">
+                Part V
+                <br /> Oyo State of Nigeria Government's share of retirement benefits amounting to:
+            </h5>
+            <div class="card my-4">
+                <div class="card-header"></div>
+                <div class="card-body row">
+                    <div class="col-6">
+                        <div class="form-group radio py-2">
+                            <label for="Pension">
+                                Pension
+                            </label>
+                            <input type="text" class="form-control" placeholder="Enter pension" />
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="form-group radio py-2">
+                            <label for="Gratuity">
+                                Gratuity
+                            </label>
+                            <input type="text" class="form-control" placeholder="Enter Gratuity" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p>
+                Approved by the Governor of Oyo State of Nigeria
+            </p>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <span>............., 20......</span>
+            </div>
+            <div class="col-lg-6 text-right">
+                <i>Signature </i>
+                <span>.......................</span>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <h5 class="text-center">
+                Part VI
+            </h5>
+            <p>
+                Federal and other Nigerian Government(s) shares of retirement benefits amounting to:
+            </p>
+            <div class="card my-4">
+                <div class="card-header">Federal Government</div>
+                <div class="card-body row">
+                    <div class="col-4">
+                        <div class="form-group radio py-2">
+                            <label for="government">
+                                Government
+                            </label>
+                            <input type="text" class="form-control" placeholder="Enter government" />
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="form-group radio py-2">
+                            <label for="Pension">
+                                Pension
+                            </label>
+                            <input type="text" class="form-control" placeholder="Enter pension" />
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="form-group radio py-2">
+                            <label for="Gratuity">
+                                Gratuity
+                            </label>
+                            <input type="text" class="form-control" placeholder="Enter Gratuity" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                Federal share verified:<br />
+                <span>............., 20......</span>
+            </div>
+            <div class="col-lg-6 text-right">
+                <span>.......................</span><br />
+                <i>Auditor-General of the Federation</i>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                Approved by the Permanent Secretary, Federal Ministry of Establishments<br />
+                <span>............., 20......</span>
+            </div>
+            <div class="col-lg-6 text-right">
+                <br />
+                <i>Signature </i>
+                <span>.......................</span>
+            </div>
+        </div>
+    </div>
+    <button class="btn btn-info btn-lg btn-block">Submit</button>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
@@ -488,6 +589,12 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
     -->
+    <script>
+        const spanElements = document.getElementsByTagName("span");
+        for (let i = 0; i < spanElements.length; i++) {
+            spanElements[i].setAttribute("contenteditable", true)
+        }
+    </script>
 </body>
 
 </html>
